@@ -32,7 +32,7 @@ async function submitDataSignup(){
             
             alert("El usuario ha sido creado");
             setTimeout(10000);
-            window.location.href = "./index.html"; 
+            window.location.href = "./https://www.truequemundo.online/"; 
     }
     else{
         alert('Los espacios no pueden estar en blanco');
