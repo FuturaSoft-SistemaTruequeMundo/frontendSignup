@@ -11,7 +11,7 @@ async function submitDataSignup(){
     const validation = validateFields(firstName.value, lastName.value, email.value, password.value);
 
     if(validation == 'ok'){
-        const url = 'https://truequeprueba.herokuapp.com/events/new_usuario';
+        const url = 'http://truequemundo.xyz:3000/events/new_usuario';
 
         const dataDetails = {
             method: 'POST',
